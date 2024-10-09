@@ -38,6 +38,22 @@
       <joint name="wrist_2_joint" value="-1.6" />
       <joint name="wrist_3_joint" value="-0.11" />
     </group_state>
+    <group_state name="ready" group="ur_manipulator">
+      <joint name="elbow_joint" value="${46*pi/180}" />
+      <joint name="shoulder_lift_joint" value="${-79*pi/180}" />
+      <joint name="shoulder_pan_joint" value="${66*pi/180}" />
+      <joint name="wrist_1_joint" value="${-71*pi/180}" />
+      <joint name="wrist_2_joint" value="${-97*pi/180}" />
+      <joint name="wrist_3_joint" value="${-48*pi/180}" />
+    </group_state>
+    <group_state name="extended" group="ur_manipulator">
+      <joint name="elbow_joint" value="${125*pi/180}" />
+      <joint name="shoulder_lift_joint" value="${-69*pi/180}" />
+      <joint name="shoulder_pan_joint" value="${53*pi/180}" />
+      <joint name="wrist_1_joint" value="${-66*pi/180}" />
+      <joint name="wrist_2_joint" value="${-86*pi/180}" />
+      <joint name="wrist_3_joint" value="${30*pi/180}" />
+    </group_state>
     <!--END EFFECTOR - Purpose - Represent information about an end effector.-->
     <!--VIRTUAL JOINT - Purpose - this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <!--DISABLE COLLISIONS - By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->

@@ -10,3 +10,7 @@ response_adapters:
   - default_planning_response_adapters/AddTimeOptimalParameterization
   - default_planning_response_adapters/ValidateSolution
   - default_planning_response_adapters/DisplayMotionPath
+
+ur_manipulator:
+  planner_configs:
+    - RRTstar
